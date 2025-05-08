@@ -1,0 +1,21 @@
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: var(--space-4) 0;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid rgba(59, 130, 246, 0.1);
+  border-top-color: var(--color-primary-600);
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion) {
+  .spinner {
+    animation: none;
+  }
+}
