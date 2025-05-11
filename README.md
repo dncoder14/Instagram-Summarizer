@@ -25,7 +25,7 @@ Transform Instagram Reels and video content into concise, AI-generated summaries
 
 1. Clone the repository
    ```bash
-   https://github.com/dncoder14/Instagram-Summarizer.git
+   git clone https://github.com/dncoder14/Instagram-Summarizer.git
    ```
 3. Install dependencies:
    ```bash
